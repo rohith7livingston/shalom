@@ -1,0 +1,55 @@
+*
+{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.Entry-Login {
+    height: 100%; /* Full height of the parent */
+  width: 100%;  /* Full width of the parent */
+  overflow: hidden;
+  }
+  h2{
+    text-align: center;
+    font-size: large;
+  }
+ 
+  /* cards */
+  .Admins-Login {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .Students-Login {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  /* buttons */
+  .Login-Admin-Button{
+    width: 170px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size:medium;
+  }
+  .Login-Student-Button
+  {
+    width: 170px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 5px;
+    font-size:medium;
+  }
